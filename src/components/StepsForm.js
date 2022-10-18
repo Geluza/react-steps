@@ -16,7 +16,6 @@ function StepsForm({addStep}) {
 
   const handleSubmit = evt => {
     evt.preventDefault();
-    alert("Отправлено");
     addStep(date, distance);
     setDate('');
     setDistance('');   
